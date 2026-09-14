@@ -7,6 +7,7 @@ The portfolio demonstrates the practical application of AI fundamentals in the w
 Official SDAIA Academy GitHub:  
 https://github.com/SDAIAAcademy
 ———————
+
 💡 1. Project Concept
 This project is an essential, high-level reference study guide custom-designed for students, researchers, and data science practitioners. It aims to break down complex theoretical frameworks into a clean, easy-to-read, and highly scannable bullet-point format.
 
@@ -23,7 +24,7 @@ This project was developed using a template-to-print workflow, making it very ea
 
 2. Modifying the Design & Content:
     * To change styles (such as the recent update that changed the title to black) or text contents, open the summary.html source template in a code editor (like VS Code or Notepad).
-    * Locate the main title <h1>tag and edit its CSS color property to #000000 (black).
+    * Locate the main title tag and edit its CSS color property to #000000 (black).
 
 3. Compiling back to PDF:
     * Once you save your changes in the HTML/CSS code, use a command-line print tool like WeasyPrint to render and export the code back into a beautifully formatted, print-ready PDF file.
