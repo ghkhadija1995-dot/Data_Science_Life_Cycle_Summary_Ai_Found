@@ -6,6 +6,7 @@ The portfolio demonstrates the practical application of AI fundamentals in the w
 
 Official SDAIA Academy GitHub:  
 https://github.com/SDAIAAcademy
+———————
 
 # Data Science Study Guide & Life Cycle Summary
 
