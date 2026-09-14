@@ -7,51 +7,47 @@ The portfolio demonstrates the practical application of AI fundamentals in the w
 Official SDAIA Academy GitHub:  
 https://github.com/SDAIAAcademy
 ———————
+💡 1. Project Concept
+This project is an essential, high-level reference study guide custom-designed for students, researchers, and data science practitioners. It aims to break down complex theoretical frameworks into a clean, easy-to-read, and highly scannable bullet-point format.
 
-# Data Science Study Guide & Life Cycle Summary
+Key Highlights of the Guide:
+* Core Concepts: Quick reference summaries covering foundational statistics, machine learning principles, and big data architectures.
+* The 10-Step Life Cycle: A step-by-step breakdown explaining the end-to-end data science pipeline in short, simple sentences.
+* Academic Neutrality: Fully anonymized text using placeholders (e.g., Professor A, Dr. B) to keep the focus strictly on academic value and remove personal metadata.
 
-An essential, high-level summary covering foundational data science concepts, statistical principles, machine learning, big data architectures, and the end-to-end 10-step Data Science Life Cycle. Designed as a clean reference for students, researchers, and practitioners.
----
+⚙️ 2. How to Run and Use
+This project was developed using a template-to-print workflow, making it very easy to read, modify, and recompile:
 
-## ⏱️ Development Duration
+1. Reading the Guide:
+* Open Data_Science_Life_Cycle_Summary.pdf using any modern web browser or PDF reader to access the final, polished document.
 
-- **Total Execution Time**: Approximately **2 hours** (iterative refinement, styling adjustments, and multi-prompt workflow completion).
----
+2. Modifying the Design & Content:
+    * To change styles (such as the recent update that changed the title to black) or text contents, open the summary.html source template in a code editor (like VS Code or Notepad).
+    * Locate the main title <h1> tag and edit its CSS color property to #000000 (black).
 
-## 📄 Included Files
+3. Compiling back to PDF:
+    * Once you save your changes in the HTML/CSS code, use a command-line print tool like WeasyPrint to render and export the code back into a beautifully formatted, print-ready PDF file.
 
-- **`Data_Science_Life_Cycle_Summary.pdf`**: The primary published reference document containing the full structured guide.
-- **`summary.html`**: The HTML/CSS source template used to render and compile the PDF via WeasyPrint.
----
+🛠️ 3. Technical Documentation
 
-## 🤖 AI Tools Used
+A. Included Files
+* Data_Science_Life_Cycle_Summary.pdf: The primary published reference document containing the full structured guide.
+* summary.html: The HTML/CSS source template used to control the visual structure, fonts, and print layout.
 
-- **Claude** (Anthropic)
-- **Gemini** (Google)
+B. Tech Stack & AI Tools
+* Claude (Anthropic) & Gemini (Google): The primary AI engines used to summarize the original text, structure the lifecycle steps, write the clean code, and refine the text through iterative prompt updates.
+* WeasyPrint: The technical compilation engine used to convert HTML and CSS code directly into a standard PDF asset.
 
----
+C. Iterative Development History (The 5 Prompts)
+The final document structure was achieved through a multi-step prompt engineering process:
 
-## 💬 Dialogue & Iterative Development History
+* Prompt 1 (Initial Generation): Extracted the core data science topics into short bullet points and framed the 10 life cycle steps using anonymous personas (e.g., Professor A).
+* Prompt 2 (Anonymization Cleanup): Removed a metadata sentence that explicitly pointed out that the personas were anonymized, ensuring a cleaner look.
+* Prompt 3 (Header Removal): Removed the top metadata bar containing the date and preparation text to simplify the page layout.
+* Prompt 4 (User Confirmation): Confirmed the basic layout structure was correct.
+* Prompt 5 (Title Styling): Updated the CSS script to change the header (<h1>) text color to full black (#000000) for sharper contrast and readability.
 
-This document was created and refined through a series of iterative prompt requests:
-
-### Prompt 1 (Initial Document Generation)
-> *"You are a professor and a writer in data science. Summarize the attached file with the most important information in clear bullet points. Mention the steps of the data science lifecycle with a short sentence explaining each step, and include only what is important —just add short and simple sentences. Do not mention any personal names from the file; refer to them as Professor A, Dr. B, etc. Do not add any personal information about the people in the file. The summary should not exceed 5 pages and should be in PDF format. montion this as a first prompt"*
-- **Action Taken**: Generated the foundational Data Science Study Guide PDF document summarized from source content using anonymous academic persona references.
-
-### Prompt 2 (Anonymization Cleanup)
-> *"All persona references inside the original commentary have been anonymized (e.g., Professor A, Dr. B) to maintain a purely academic focus. remove this sentence"*
-- **Action Taken**: Removed the metadata note regarding persona anonymization from the body summary text.
-
-### Prompt 3 (Header Removal)
-> *"Prepared by: Professor A & Dr. B • Academic Reference • 2026 Edition remove this sentence also"*
-- **Action Taken**: Removed the top header metadata bar from the document layout.
-
-### Prompt 4 (User Confirmation)
-> *"good"*
-- **Action Taken**: Finalized document structure.
-
-### Prompt 5 (Title Styling)
-> *"can you change the color of the title to be black"*
-- **Action Taken**: Updated CSS styles to set the title text color (`<h1>`) to `#000000` (black).
-
+D. Development Metrics
+* Total Execution Time: Approximately 2 hours (covering prompt iterations, CSS adjustments, and WeasyPrint compiling tests).
+  
+* Document Length Constraints: Kept strictly under a maximum of 5 pages to maintain a concise, quick-study layout.
