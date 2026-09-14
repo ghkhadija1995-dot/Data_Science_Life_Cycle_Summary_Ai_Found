@@ -1,3 +1,12 @@
+### 🔗 Training Program
+
+This project was completed as part of the L0-FAE — AI Fundamentals for the Workplace training program at SDAIA Academy, under the supervision of Abdullah Khalid AlShahrani.
+
+The portfolio demonstrates the practical application of AI fundamentals in the workplace through prompt engineering, professional writing, information processing, verification and fact-checking, safe and responsible use, and daily task integration.
+
+Official SDAIA Academy GitHub:  
+https://github.com/SDAIAAcademy
+
 # Data Science Study Guide & Life Cycle Summary
 
 An essential, high-level summary covering foundational data science concepts, statistical principles, machine learning, big data architectures, and the end-to-end 10-step Data Science Life Cycle. Designed as a clean reference for students, researchers, and practitioners.
