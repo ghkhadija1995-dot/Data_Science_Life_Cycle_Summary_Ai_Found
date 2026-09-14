@@ -8,7 +8,7 @@ Official SDAIA Academy GitHub:
 https://github.com/SDAIAAcademy
 ———————
 
-💡 1. Project Concept
+💡 1. The Concept:
 This project is an essential, high-level reference study guide custom-designed for students, researchers, and data science practitioners. It aims to break down complex theoretical frameworks into a clean, easy-to-read, and highly scannable bullet-point format.
 
 Key Highlights of the Guide:
