@@ -46,7 +46,7 @@ The final document structure was achieved through a multi-step prompt engineerin
 * Prompt 2 (Anonymization Cleanup): Removed a metadata sentence that explicitly pointed out that the personas were anonymized, ensuring a cleaner look.
 * Prompt 3 (Header Removal): Removed the top metadata bar containing the date and preparation text to simplify the page layout.
 * Prompt 4 (User Confirmation): Confirmed the basic layout structure was correct.
-* Prompt 5 (Title Styling): Updated the CSS script to change the header (<h1>) text color to full black (#000000) for sharper contrast and readability.
+* Prompt 5 (Title Styling): Updated the CSS script to change the header text color to full black (#000000) for sharper contrast and readability.
 
 D. Development Metrics
 * Total Execution Time: Approximately 2 hours (covering prompt iterations, CSS adjustments, and WeasyPrint compiling tests).
